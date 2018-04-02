@@ -1,0 +1,132 @@
+.navbar-default {
+  color: #000;
+  background-color:#282e34;
+  border: none;
+  font-family: 'Cinzel', serif;
+}
+
+
+.pic2, .pic3, .pic4 {
+  position:relative;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  font-family: 'Cinzel', serif;
+}
+
+.pic1 {
+  position: inherit;
+  background-image:url(../images/m2Circle.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat:no-repeat;
+  min-height:825px;
+
+
+}
+
+.pic2 {
+  background-image:url(../images/ipadTouch.jpg);
+  min-height:550px;
+
+}
+
+.pic3 {
+  background-image:url(../images/handshake.jpeg);
+  min-height:550px;
+}
+
+.pic4 {
+  background-image:url(../images/sunset.jpeg);
+  min-height:550px;
+}
+
+.section {
+  padding:50px 30px;
+  text-align:center;
+  font-family: 'Cinzel', serif;
+}
+
+.dark-product {
+font-size: 20px;
+  background-color:#282e34;
+  color:#ddd;
+  padding:50px 30px;
+  text-align:center;
+  font-family: 'Cinzel', serif;
+}
+
+.section-light {
+  font-size: 20px;
+  background-color:#f4f4f4;
+  color:#666;
+  font-family: 'Cinzel', serif;
+}
+
+.light-contact {
+  text-siz: 21;
+  padding:50px 30px;
+  background-color:#f4f4f4;
+  font-family: 'Cinzel', serif;
+
+}
+
+.section-dark {
+  background-color:#282e34;
+  color:#ddd;
+  font-family: 'Cinzel', serif;
+}
+
+/*ptext is used to style the text in the the photos - font not chosen*/
+
+.ptext {
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#ddd;
+  font-size:35px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+  font-family: 'Cinzel', serif;
+
+}
+
+/*span.sub-head is the sytling for the sub header in pic 1*/
+
+span.sub-head {
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+}
+
+/*i and .fa:hover are for the icons (Twitter, linkedin etc)*/
+
+a {
+  color:#666;
+}
+
+hr.product {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #282e34, #8c8b8b, #282e34);
+  background-image: -moz-linear-gradient(left, #282e34, #8c8b8b, #282e34);
+  background-image: -ms-linear-gradient(left, #282e34, #8c8b8b, #282e34);
+  background-image: -o-linear-gradient(left, #282e34, #8c8b8b, #282e34);
+}
+
+hr.contact {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #8c8b8b, #f0f0f0, #8c8b8b);
+  background-image: -moz-linear-gradient(left, #8c8b8b, #f0f0f0, #8c8b8b);
+  background-image: -ms-linear-gradient(left, #8c8b8b, #f0f0f0, #8c8b8b);
+  background-image: -o-linear-gradient(left, #8c8b8b, #f0f0f0, #8c8b8b);
+}
+
+
+@media(max-width:568px) {
+  .pic1, .pic2, .pic3, .pic4 {
+    background-attachment: scroll;
+  }
+}
